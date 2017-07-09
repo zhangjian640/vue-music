@@ -67,7 +67,7 @@
         // 为了得到有序的歌曲列表，处理map
         let hot = []
         let ret = []
-        for (var key in map) {
+        for (let key in map) {
           let val = map[key]
           if (val.title.match(/[a-zA-Z]/)) {
             ret.push(val)
